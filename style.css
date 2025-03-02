@@ -1,3 +1,8 @@
+/*Cursor*/
+html{
+    cursor: url('images/cursor.png'), auto;
+}
+
 /* Fonts*/
 @font-face {
     font-family: "Symtext";
@@ -5,8 +10,10 @@
 }
 
 /*Loading Screen*/
+
 body{
-    background-color: black;
+    margin: 0;
+    /*padding: 0;*/
 }
 
 #loadtxt{
@@ -20,6 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
 }
 
 .loader{
@@ -55,4 +63,10 @@ body{
     50%{
         transform: scale(1.5);
     }
+}
+
+/*Main Page*/
+
+.hidden{
+    display: none;
 }
