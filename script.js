@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
         setTimeout(() => {
             document.getElementById('loader-container').style.display = 'none';
             document.getElementById('main-content').classList.remove('hidden');
-        }, 500);
+        });
 
     }, 2000); 
 });
